@@ -1,0 +1,16 @@
+<svg width="28.000000" height="28.000000" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip2_110">
+			<rect id="Logo" width="28.000000" height="28.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip2_110)">
+		<path id="Rectangle 587" d="M0.575317 28L10.0685 28C14.5699 28 18.2192 24.3508 18.2192 19.8494L8.72601 19.8494C4.22449 19.8494 0.575317 23.4985 0.575317 28Z" fill="#F22BB2" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Rectangle 591" d="M0 8.15063L0 20.137C4.50153 20.137 8.1507 16.4878 8.1507 11.9863L8.1507 0C3.64917 0 0 3.64917 0 8.15063Z" fill="#8C30F5" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Rectangle 587" d="M27.4247 0L17.9315 0C13.43 0 9.78082 3.64917 9.78082 8.15063L19.274 8.15063C23.7755 8.15063 27.4247 4.50146 27.4247 0Z" fill="#FE9A22" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Rectangle 591" d="M27.4247 19.3699L27.4247 7.38354C22.9232 7.38354 19.274 11.0327 19.274 15.5342L19.274 27.5205C23.7755 27.5205 27.4247 23.8713 27.4247 19.3699Z" fill="#2EC5CE" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>

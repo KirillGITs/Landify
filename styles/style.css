@@ -1,0 +1,31 @@
+:root {
+    --color-black: rgb(24, 25, 31);;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 72px;
+}
+.nav-logo-landify {
+  display: flex;
+  align-items: center;
+  gap: 9.2px;
+}
+.nav-list,
+.nav-list > ul {
+  display: flex;
+  gap: 32px;
+  padding-left: 32px;
+}
+.nav-list-style > a {
+  font-weight: 700;
+  line-height: 20px;
+  color: var(--color-black);
+}
+.nav-google-apple {
+  display: flex;
+  padding-left: 253px;
+  gap: 13px;
+  cursor: pointer;
+}
