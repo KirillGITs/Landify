@@ -1,14 +1,17 @@
 :root {
-    --color-black: rgb(24, 25, 31);;
+  --color-black: rgb(24, 25, 31);
+}
+body {
+  background-image: url('/imgs/Background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right;
 }
 .nav {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 72px;
-  background-image: url('/imgs/Background.png');
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .nav-logo-landify {
   display: flex;
@@ -20,6 +23,7 @@
   display: flex;
   gap: 32px;
   padding-left: 32px;
+  user-select: none;
 }
 .nav-list-style > a {
   font-weight: 700;
@@ -31,4 +35,64 @@
   padding-left: 253px;
   gap: 13px;
   cursor: pointer;
+}
+.section-organise {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  padding-top: 112px;
+  padding-bottom: 90px;
+}
+.section-organise-h1-block > div > h1 {
+  width: 730px;
+}
+.h1-style {
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 98px;
+  user-select: none;
+}
+.section-organise-h1-block {
+  display: flex;
+  align-items: center;
+}
+.section-organise-button {
+  display: flex;
+}
+.section-company {
+  padding-bottom: 64px;
+}
+.section-company-lines {
+  display: flex;
+  justify-content: center;
+}
+.section-company-lines2 {
+  display: flex;
+  justify-content: center;
+}
+.section-company-logos {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+  padding: 43px 0;
+}
+.section-expirince-h2 {
+  text-align: center;
+}
+.section-expirince-h2 > p {
+    display: flex;
+    justify-content: center;
+    width: 540px;
+}
+.h2-style {
+  color: var(--color-black);
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 64px;
+}
+.section-expirince-p-style {
+  color: var(--color-black);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
 }
