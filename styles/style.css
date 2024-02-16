@@ -6,6 +6,9 @@
   align-items: center;
   justify-content: center;
   height: 72px;
+  background-image: url('/imgs/Background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .nav-logo-landify {
   display: flex;
