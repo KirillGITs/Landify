@@ -188,3 +188,46 @@ body {
   line-height: 30px;
   padding-right: 9px;
 }
+.section-fashion > .section-fashion-h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fashion-img {
+  display: flex;
+  justify-content: center;
+  padding-top: 54px;
+  padding-bottom: 64px;
+}
+.fashion-h2-style {
+  color: rgb(24, 25, 31);
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 54px;
+  width: 540px;
+}
+.fashion-p-style {
+  color: rgb(24, 25, 31);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.fashion-p {
+  width: 540px;
+}
+.section-manage {
+  background-color: #2ec5ce;
+  height: 491px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.manage-h2-style {
+  color: rgb(24, 25, 31);
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 64px;
+}
+.manage-block {
+  width: 540px;
+}
