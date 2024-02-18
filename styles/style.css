@@ -76,6 +76,9 @@ body {
   gap: 64px;
   padding: 43px 0;
 }
+.section-expirince {
+  padding-bottom: 64px;
+}
 .section-expirince-h2 {
   text-align: center;
   padding-bottom: 48px;
@@ -92,8 +95,96 @@ body {
   font-weight: 400;
   line-height: 32px;
 }
-.section-expirince-grid > div{
+.section-expirince-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0 176px;
+  gap: 64px 0;
+}
+.section-expirince-grid-block {
+  text-align: center;
+}
+.section-expirince-grid-block > svg {
+  margin-bottom: 24px;
+}
+.section-expirince-grid-block > p {
+  margin-top: 8px;
+}
+.expirince-h2-style {
+  color: var(--color-black);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+.expirince-p-style {
+  color: var(--color-black);
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.section-stories {
   display: flex;
   justify-content: center;
-  flex-direction: row;
+}
+.section-achievements {
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  padding-bottom: 80px;
+}
+.achievements-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px 40px;
+}
+.achievements-block {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.achievements-style-h2 {
+  color: var(--color-black);
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 64px;
+}
+.section-achievements > .achievements-h2 {
+  width: 540px;
+}
+/* !!!!*/
+.section-headline {
+  padding-top: 64px;
+  padding-bottom: 128px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.section-headline > .headline-h2-p-block {
+  width: 462px;
+}
+.headline-h2 {
+  color: var(--color-black);
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 54px;
+  padding-bottom: 32px;
+}
+.headline-p {
+  color: var(--color-black);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  padding-bottom: 32px;
+}
+.headline-button {
+  background-color: transparent;
+  color: rgb(140, 48, 245);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  padding-right: 9px;
 }
