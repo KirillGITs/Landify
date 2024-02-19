@@ -155,7 +155,7 @@ h1 {
 .achievements-block {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 20px;
 }
 .achievements-style-h2 {
   color: var(--color-black);
@@ -201,8 +201,9 @@ h1 {
   padding-right: 9px;
 }
 .section-fashion {
+  background-color: #fff;
   position: relative;
-  z-index: 10;
+  z-index: 1;
 }
 .section-fashion > .section-fashion-h2 {
   display: flex;
@@ -243,6 +244,19 @@ h1 {
 .manage-h2 {
   padding-bottom: 8px;
 }
+.play-pad {
+  padding-right: 12px;
+}
+.manage-p {
+  padding-bottom: 48px;
+  color: rgb(24, 25, 31);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.manage-p-1 {
+  padding-bottom: 8px;
+}
 .manage-h2-style {
   color: rgb(24, 25, 31);
   font-size: 48px;
@@ -279,6 +293,41 @@ h1 {
 }
 .footer-list-style {
   color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.footer-list-style-p {
+  color: rgb(217, 219, 225);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.footer-appstore {
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+.footer-download > ul {
+  display: flex;
+  gap: 24px;
+  padding-top: 10px;
+  padding-bottom: 12px;
+  cursor: pointer;
+}
+.achievements-p {
+  color: rgb(24, 25, 31);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.achievements-h2-style {
+  color: rgb(24, 25, 31);
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 40px;
+}
+.achievements-p-style {
+  color: rgb(24, 25, 31);
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
