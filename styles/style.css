@@ -7,6 +7,9 @@ body {
   background-size: cover;
   background-position: top right;
 }
+h1 {
+  padding-bottom: 32px;
+}
 .nav {
   display: flex;
   align-items: center;
@@ -40,7 +43,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 45px;
-  padding-top: 112px;
+  padding-top: 73px;
   padding-bottom: 90px;
 }
 .section-organise-h1-block > div > h1 {
@@ -51,6 +54,15 @@ body {
   font-weight: 800;
   line-height: 98px;
   user-select: none;
+}
+.button-title {
+  border-radius: 8px;
+  padding: 16px 41px;
+  background: rgb(140, 48, 245);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
 }
 .section-organise-h1-block {
   display: flex;
@@ -188,6 +200,10 @@ body {
   line-height: 30px;
   padding-right: 9px;
 }
+.section-fashion {
+  position: relative;
+  z-index: 10;
+}
 .section-fashion > .section-fashion-h2 {
   display: flex;
   justify-content: center;
@@ -221,6 +237,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-right: 185px;
+  gap: 200px;
+}
+.manage-h2 {
+  padding-bottom: 8px;
 }
 .manage-h2-style {
   color: rgb(24, 25, 31);
@@ -230,4 +251,35 @@ body {
 }
 .manage-block {
   width: 540px;
+}
+.manage-relative {
+  position: relative;
+  padding-left: 250px;
+}
+.manage-absolute1 {
+  top: -357px;
+  left: 0;
+  position: absolute;
+}
+.manage-absolute {
+  position: absolute;
+  top: -145px;
+  z-index: 0;
+}
+/* !!! */
+.footer {
+  height: 280px;
+  background-color: #0b0d17;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 476px;
+}
+.footer-list-style {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
 }
